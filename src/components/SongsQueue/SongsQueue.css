@@ -28,6 +28,10 @@
   scrollbar-width: 0;
 }
 
+.song-queue__list::-webkit-scrollbar {
+  display: none;
+}
+
 .song-queue__track {
   display: flex;
   justify-content: space-between;

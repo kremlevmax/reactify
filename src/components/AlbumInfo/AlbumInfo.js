@@ -9,7 +9,7 @@ const AlbumInfo = ({ currentTrack, album }) => {
 
   return (
     <div className='album-info__container'>
-      <p className='album-info__name'>{currentTrack.name}</p>
+      <p className='album-info__name'>{currentTrack?.name}</p>
       <p className='album-info__artist'>{artists?.join(", ")}</p>
       <p className='album-info__album'>{album?.name}</p>
       <p className='album-info__tracks-count'>

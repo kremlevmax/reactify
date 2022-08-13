@@ -25,7 +25,11 @@
 
 .album-info__artist {
   font-size: 1.2rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.album-info__album {
+  margin-bottom: 0.3rem;
 }
 
 .album-info__tracks-count {
