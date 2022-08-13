@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+}
+
+.sidebar-button__button {
+  align-items: center;
+  border-radius: var(--button-border-radius);
+  color: var(--font-hover-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  margin: 5px auto;
+  transition: var(--transition-props);
+  width: 80px;
+}
+
+.sidebar-button__button:hover {
+  color: var(--button-text-hover-color);
+}
+.sidebar-button__button.active {
+  background: var(--button-active-color);
+  color: var(--button-text-active-color);
+  transform: var(--scale-transform);
+}
+
+.sidebar-button__title {
+  margin: 4px auto;
+  font-size: var(--button-font-size);
+}

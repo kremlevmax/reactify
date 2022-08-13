@@ -1,0 +1,7 @@
+.home__container {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--secondary-background-color);
+  border-radius: var(--border-radius);
+  display: flex;
+}

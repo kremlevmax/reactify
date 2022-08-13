@@ -1,0 +1,23 @@
+.album-cover__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-cover__img {
+  margin-top: 20px;
+  width: 98%;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+}
+
+.album-cover__shadow {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  top: 20px;
+  border-radius: var(--border-radius);
+}

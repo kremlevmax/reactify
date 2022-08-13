@@ -1,0 +1,29 @@
+.login__container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  background: var(--library-background-color);
+}
+
+.login__logo {
+  width: 30%;
+}
+
+.login__button {
+  width: 200px;
+  padding: 15px 0px;
+  text-align: center;
+  border-radius: 50px;
+  background: var(--login-button-color);
+  color: var(--login-button-text-color);
+  transition: var(--transition-props);
+}
+
+.login__button:hover {
+  background: var(--login-button-hover-color);
+  color: var(--login-button-text-hover-color);
+}

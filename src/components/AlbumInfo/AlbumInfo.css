@@ -1,0 +1,33 @@
+.album-info__container {
+  width: 100%;
+  overflow: hidden;
+  font-weight: 700;
+  color: var(--font-tracks-number-color);
+}
+
+.album-info__name {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 12s linear infinite;
+  padding-left: 100%;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.album-info__artist {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.album-info__tracks-count {
+  font-weight: 400;
+}

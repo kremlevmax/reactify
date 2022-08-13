@@ -1,13 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+:root {
+  --background-color: #4cc9f0;
+  --secondary-background-color: #3a0ca3;
+  --library-background-color: #3f37c9;
+
+  --border-radius: 20px;
+  --icon-border-radius: 50%;
+
+  --font-color: #f2f7ff;
+  --font-hover-color: #bebcfc;
+  --font-tracks-number-color: #cee5ff;
+
+  --button-font-size: 12px;
+  --button-text-color: #bebcfc;
+  --button-text-hover-color: #f2f7ff;
+  --button-text-active-color: #f2f7ff;
+  --button-border-radius: 20px;
+  --button-active-color: #9d4edd;
+
+  --login-button-color: #9d4edd;
+  --login-button-text-color: #bebcfc;
+  --login-button-hover-color: #1ed760;
+  --login-button-text-hover-color: #f2f7ff;
+
+  --playlist-background-color: #4361ee;
+  --playlist-border-color: #3a0ca3;
+
+  --padding: 12px;
+  --transition-props: all 0.4s ease;
+  --scale-transform: scale(1.02);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "PT Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--font-color);
+  font-weight: 700;
+  background: var(--background-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+p {
+  margin: 0;
 }

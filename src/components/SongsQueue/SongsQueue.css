@@ -1,0 +1,40 @@
+.song-queue__container {
+  width: 90%;
+  height: 24vh;
+  padding: 2rem;
+  margin: 32px;
+  background-color: var(--playlist-border-color);
+  border-radius: var(--border-radius);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.song-queue__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.song-queue__list {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  overflow-y: scroll;
+  padding-inline: 10px;
+  scrollbar-width: 0;
+}
+
+.song-queue__track {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.song-queue__track:hover {
+  transform: var(--scale-transform);
+}
