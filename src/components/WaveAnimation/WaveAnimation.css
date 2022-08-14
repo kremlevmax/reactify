@@ -1,0 +1,87 @@
+.wave-animation__container {
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  transform: scale(0.4);
+  height: 100%;
+  width: 8px;
+  background: var(--linear-gradient);
+  border: 18px;
+}
+
+.box.active {
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.box1 {
+  animation-name: loud;
+}
+.box2 {
+  animation-name: medium;
+}
+.box3 {
+  animation-name: medium;
+}
+.box4 {
+  animation-name: quiet;
+}
+.box5 {
+  animation-name: quiet;
+}
+.box6 {
+  animation-name: medium;
+}
+.box7 {
+  animation-name: quiet;
+}
+.box8 {
+  animation-name: loud;
+}
+.box9 {
+  animation-name: medium;
+}
+.box10 {
+  animation-name: quiet;
+}
+
+@keyframes quiet {
+  25% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(0.3);
+  }
+  75% {
+    transform: scale(1);
+  }
+}
+
+@keyframes loud {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.6);
+  }
+  75% {
+    transform: scale(1);
+  }
+}
+@keyframes medium {
+  25% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(0.2);
+  }
+  75% {
+    transform: scale(1);
+  }
+}

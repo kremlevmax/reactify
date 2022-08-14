@@ -17,6 +17,10 @@
   flex-wrap: wrap;
   overflow-y: auto;
   gap: 2rem;
+  scrollbar-width: 0;
+}
+.library__playlists-container::-webkit-scrollbar {
+  display: none;
 }
 
 .library__playlist-container {
@@ -28,11 +32,7 @@
   padding: 1%;
   margin-bottom: 2%;
   background: rgb(72, 149, 239);
-  background: linear-gradient(
-    266deg,
-    rgba(72, 149, 239, 0.2805497198879552) 0%,
-    rgba(68, 99, 238, 1) 100%
-  );
+  background: var(--linear-gradient);
   cursor: pointer;
   transition: var(--transition-props);
 }

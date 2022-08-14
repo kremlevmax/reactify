@@ -1,0 +1,21 @@
+.controls__container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls__button {
+  cursor: pointer;
+  color: var(--button-text-dark-color);
+  transition: var(--transition-props);
+}
+
+.controls__button:hover {
+  color: var(--button-text-active-color);
+}
+
+.controls__button:active {
+  color: var(--button-text-active-color);
+  transform: var(--scale-transform);
+}

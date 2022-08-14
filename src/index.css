@@ -16,6 +16,7 @@
   --button-text-color: #bebcfc;
   --button-text-hover-color: #f2f7ff;
   --button-text-active-color: #f2f7ff;
+  --button-text-dark-color: #91a7ff;
   --button-border-radius: 20px;
   --button-active-color: #9d4edd;
 
@@ -30,6 +31,12 @@
   --padding: 12px;
   --transition-props: all 0.4s ease;
   --scale-transform: scale(1.02);
+
+  --linear-gradient: linear-gradient(
+    266deg,
+    rgba(72, 149, 239, 0.2805497198879552) 0%,
+    rgba(68, 99, 238, 1) 100%
+  );
 }
 
 * {
