@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactify/static/css/main.0ad12ce5.css",
+    "main.js": "/reactify/static/js/main.eaf998a8.js",
+    "static/js/787.8805b4be.chunk.js": "/reactify/static/js/787.8805b4be.chunk.js",
+    "static/media/Spotify_Logo_RGB_Green.png": "/reactify/static/media/Spotify_Logo_RGB_Green.0c4ae91bae23217d39c9.png",
+    "index.html": "/reactify/index.html",
+    "main.0ad12ce5.css.map": "/reactify/static/css/main.0ad12ce5.css.map",
+    "main.eaf998a8.js.map": "/reactify/static/js/main.eaf998a8.js.map",
+    "787.8805b4be.chunk.js.map": "/reactify/static/js/787.8805b4be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ad12ce5.css",
+    "static/js/main.eaf998a8.js"
+  ]
+}
