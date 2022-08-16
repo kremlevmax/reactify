@@ -1,15 +1,10 @@
-# Reactify (React built Spotify player)
+## Reactify (React built Spotify player)
 
-## Description
+### Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Application makes requests to Spotify API via Axios Client, fetches user's playlists and spotify recomendations based on user preferences
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Installation
+### Installation
 
 Before start use npm package manager to install dependencies.
 
@@ -17,10 +12,14 @@ Before start use npm package manager to install dependencies.
 npm install
 ```
 
-## Usage
+### Usage
 
 Use npm to start project
 
 ```bash
 npm start
 ```
+
+### Live
+
+[GitHub Pages](http://kremlevmax.github.io/reactify)
